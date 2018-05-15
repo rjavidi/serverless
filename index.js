@@ -27,7 +27,7 @@ exports.handler = (event, context, callback) => {
         {
             "Access-Control-Allow-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
             "Access-Control-Allow-Methods": "GET,OPTIONS",
-            "Access-Control-Allow-Origin": originURL
+            "Access-Control-Allow-Origin": "http://website-s3bucket-16hiz7ihxfyan.s3-website-us-east-1.amazonaws.com"
         }
     });
 }
