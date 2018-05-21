@@ -6,7 +6,7 @@ exports.handler = (event, context, callback) => {
 
     callback(null, {
         "statusCode": 200,
-        "body": '"sagi.png"',
+        "body": '"tony.png"',
         "headers":
         {
             "Access-Control-Allow-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
